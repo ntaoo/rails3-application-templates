@@ -1,6 +1,9 @@
 # simple template for rails3 and rails3.1 pre
 # set up devise, test tools, and create initial commit
 
+require 'net/http'
+require 'uri'
+
 # authentication and authorization
 gem "devise"
 
